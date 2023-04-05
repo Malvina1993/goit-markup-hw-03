@@ -24,6 +24,16 @@
     clip: rect(0 0 0 0);
     overflow: hidden;
   }
+
+  *,
+  *::before,
+  *::after {
+    box-sizing: border-box;
+  }
+   .container{
+    width: 1158px;
+   }
+
 /** HEADER Style*/
 
 .header-logo {
