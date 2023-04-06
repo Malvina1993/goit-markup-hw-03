@@ -191,7 +191,7 @@
 }
 
 .feature-li {
-    width: calc((100%-72px)/4)
+    width: calc((100%-72px)/4);
 }
 
 
@@ -245,7 +245,8 @@
 
 .bgr-list {
     background-color: #FFFFFF;
-    width: calc((100%-72px)/4);
+   /* width: calc((100%-72px)/4);*/
+   flex-basis: calc((100% - 3 * 24px) / 4);
 }
 
 .img-team {
@@ -348,7 +349,7 @@
     display: block;  
 }
 
-.footer-conect.header-logo {
+.footer-conect > .header-logo {
     display: inline-block;
     margin-bottom: 16px;
 }
