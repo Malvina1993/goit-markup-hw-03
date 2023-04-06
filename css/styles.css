@@ -10,7 +10,7 @@
     --footer-color-logo:#f4f4fd;
     --title-color-section: #2e2f42;
     --main-color-section: #434455;
-    --portf-btn-color: 1px solid #e7e9f;
+    --portf-btn-color: #e7e9f;
     
 }
 
@@ -187,13 +187,9 @@
 }
 
 .feature-li {
-    margin-right: 24px;
-}
-
-.feature-li:not(:last-child) {
-    margin-right: 24px;
     width: calc((100% - 72px)/4);
 }
+
 
 .title-feature {
     margin-bottom: 8px;
@@ -227,6 +223,9 @@
     text-transform: capitalize;  
     color: var(--title-color-section);
 }
+ .third-li {
+    width: calc((100% - 48px) / 3;
+ }
 
 .last-title {
     margin-top: 120px;
@@ -243,6 +242,7 @@
 
 .bgr-list {
     background-color: #FFFFFF;
+    width: calc((100% - 72px) / 4);
 }
 
 .img-team {
@@ -254,7 +254,7 @@
     padding-top: 32px;
     padding-bottom: 32px;
     padding-left: 16px;
-    padding-right: 16px
+    padding-right: 16px;
     border-radius: 0px 0px 4px 4px;
 }
 
@@ -303,7 +303,7 @@
     padding-left: 24px;
     box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
     border-radius: 4px;
-    border: var(--portf-btn-color);
+    border: 1px solid var(--portf-btn-color);
     font-family: "Roboto", sans-serif;
     font-weight: 500;
     font-size: 16px;
@@ -315,7 +315,7 @@
 }
 
 .li-portf {
-    width: calc((100% - 48px) / 3);
+    width: calc((100% - 48px) / 3)
 }
 
 
@@ -347,7 +347,6 @@
 .footer-body {
     padding-top: 100px;
     padding-bottom: 100px;
-    padding-left: 156px;
     background-color: var(--footer-color-br)
 }
 
