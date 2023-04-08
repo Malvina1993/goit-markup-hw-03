@@ -90,14 +90,10 @@ ul {
     gap: 40px;
 }
 
-.header-li-right {
-    padding: 24px 0;
-    
-}
-
-
 
 .header-menu {
+    padding: 24px 0;
+
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
