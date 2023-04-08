@@ -87,16 +87,15 @@ ul {
     display: flex;
     list-style: none;
     margin: 0px;
+    gap: 40px;
 }
 
 .header-li-right {
-    padding-top: 24px;
-    padding-bottom: 24px;
+    padding: 24px 0;
+    
 }
 
-.header-li-right:not(:last-child) { 
-    margin-right: 40px;
-}
+
 
 .header-menu {
     font-weight: 500;
@@ -281,8 +280,7 @@ ul {
 
 /*MAIN PORTFOLIO*/
 .portf-cont {
-    padding-top: 96px; 
-    padding-bottom: 96px; 
+    padding: 96px 120px;  
 }
 
 .button-box {
