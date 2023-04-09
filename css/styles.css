@@ -284,7 +284,8 @@ p {
 
 /*MAIN PORTFOLIO*/
 .portf-cont {
-    padding: 96px 0;  
+    padding-top: 96px;
+    padding-bottom: 96px;  
 }
 
 .button-box {
