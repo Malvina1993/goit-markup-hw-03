@@ -24,9 +24,7 @@ p {
     margin: 0px;
 }
 
-ul {
-    padding: 0px;
-}
+
 
 .visually-hidden {
     position: absolute;
@@ -55,6 +53,7 @@ ul {
 /** HEADER Style*/
 .header-box {
     border-bottom: 1px solid #e7e9fc;
+
 }
 
 .header-li,
@@ -87,13 +86,16 @@ ul {
     display: flex;
     list-style: none;
     margin: 0px;
+    padding: 0px;
     gap: 40px;
+    
 }
 
 
 .header-menu {
-    padding: 24px 0;
-
+    display: block;
+    padding-top: 24px;
+    padding-bottom: 24px;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
@@ -117,6 +119,9 @@ ul {
 }
 
 .address-li {
+    display: block;
+    padding-top: 24px;
+    padding-bottom: 24px;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
@@ -245,6 +250,9 @@ ul {
 .bgr-list {
     background-color: #FFFFFF;
     width: calc((100% - 72px) / 4); 
+    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+    border-radius: 0px 0px 4px 4px;
+
 }
 
 .team-name {
@@ -276,7 +284,7 @@ ul {
 
 /*MAIN PORTFOLIO*/
 .portf-cont {
-    padding: 96px 120px;  
+    padding: 96px 0;  
 }
 
 .button-box {
